@@ -20,8 +20,6 @@ more details, please refer to our [paper](https://arxiv.org/abs/1808.01575).
 ### Requirements
 ```
 sudo apt install python-opencv
-pip install absl-py
-pip install h5py
 pip install tf-nightly-gpu
 ```
 

@@ -250,7 +250,8 @@ def main(_):
 
   train_spec = tf.estimator.TrainSpec(input_fn=train_input_fn,
                                       max_steps=FLAGS.max_steps)
-  eval_spec = tf.estimator.EvalSpec(input_fn=eval_input_fn, steps=None)
+  eval_spec = tf.estimator.EvalSpec(input_fn=eval_input_fn, steps=None,
+                                    throttle_secs=9)
 
   tf.estimator.train_and_evaluate(estimator, train_spec, eval_spec)
 
