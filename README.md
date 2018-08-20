@@ -60,7 +60,7 @@ pip install tf-nightly-gpu
     python match.py --data_dir data
     ```
     
-2. Eval the model. The results maybe different from the values reported in the
+2. Eval the model. The results may be slightly different from the values reported in the
 paper.
     ```
     python eval.py --data_dir data --ckpt_path saving/model.ckpt-(best val ckpt)
