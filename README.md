@@ -22,6 +22,7 @@ more details, please refer to our [paper](https://arxiv.org/abs/1808.01575).
 sudo apt install python-opencv
 pip install absl-py
 pip install h5py
+pip install tf-nightly-gpu
 ```
 
 ### Dataset
@@ -54,4 +55,15 @@ pip install h5py
 5. Generate the dataset json.
     ```
     python create_dataset.py
+    ```
+### Model
+1. Train the model.
+    ```
+    python match.py --data_dir data
+    ```
+    
+2. Eval the model. The results maybe different from the values reported in the
+paper.
+    ```
+    python eval.py --data_dir data --ckpt_path saving/model.ckpt-(best val ckpt)
     ```
