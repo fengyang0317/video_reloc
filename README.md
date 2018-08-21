@@ -7,6 +7,8 @@ Video Re-localization aims to accurately localize a segment in a reference
 video such that the segment semantically corresponds to a query video. For 
 more details, please refer to our [paper](https://arxiv.org/abs/1808.01575).
 
+![alt text](http://cs.rochester.edu/u/yfeng23/eccv18/framework.png "Framework")
+
 ### Citation
 
     @InProceedings{feng2018video,
