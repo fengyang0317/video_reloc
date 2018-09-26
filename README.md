@@ -22,7 +22,7 @@ more details, please refer to our [paper](https://arxiv.org/abs/1808.01575).
 ### Requirements
 ```
 sudo apt install python-opencv
-pip install tf-nightly-gpu
+pip install tf-nightly-gpu==1.11.0.dev20180821
 ```
 
 ### Dataset
