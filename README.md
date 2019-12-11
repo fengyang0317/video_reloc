@@ -41,8 +41,6 @@ pip install tensorflow-gpu==1.13.1
     git clone https://github.com/fengyang0317/video_reloc.git
     cd video_reloc
     ln -s /path/to/sub_activitynet_v1-3.c3d.hdf5 data/
-    wget "http://ec2-52-11-11-89.us-west-2.compute.amazonaws.com/files/\
-    activity_net.v1-3.min.json" -P data/
     python split_feat.py
     ```
 
